@@ -40,13 +40,13 @@ $(document).ready(function () {
     distance: "20%",
   });
 
-  ScrollReveal().reveal(".dish", {
+  ScrollReveal().reveal(".product", {
     origin: "left",
     duration: 2000,
     distance: "20%",
   });
 
-  ScrollReveal().reveal("#testimonial_chef", {
+  ScrollReveal().reveal("#testimonial_fazendeiro", {
     origin: "left",
     duration: 1000,
     distance: "20%",
