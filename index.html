@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/styles/styles.css" />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>JWF Rações</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <img src="src/images/logojwfracoes.png" width="150px" />
+        <ul id="nav_list">
+          <li class="nav-item active">
+            <a href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials">Avaliações</a>
+          </li>
+        </ul>
+
+        <button class="btn-default">Peça aqui</button>
+
+        <button id="mobile_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+          <li class="nav-item">
+            <a href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials">Avaliações</a>
+          </li>
+        </ul>
+
+        <button class="btn-default">Peça aqui</button>
+      </div>
+    </header>
+
+    <main id="content">
+      <section id="home">
+        <div class="shape"></div>
+        <div id="cta">
+          <h1 class="title">
+            O melhor tipo de ração
+            <span>para o seu animal!</span>
+          </h1>
+
+          <p class="description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet
+          </p>
+
+          <div id="cta_buttons">
+            <a href="#" class="btn-default"> Ver produtos </a>
+
+            <a href="tel:+55555555555" id="phone_button">
+              <button class="btn-default">
+                <i class="fa-solid fa-phone"></i>
+              </button>
+              (51) 92342-3243
+            </a>
+          </div>
+
+          <div class="social-media-buttons">
+            <a href="">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a href="">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+
+        <div id="banner">
+          <img src="src/images/Sans titre 2_20250127183718.png" alt="" />
+        </div>
+      </section>
+
+      <section id="menu">
+        <h2 class="section-title">Produtos</h2>
+        <h3 class="section-subtitle">Nossos produtos especiais</h3>
+
+        <div id="products">
+          <div class="product">
+            <div class="product-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img
+              src="src/images/cvalo.png"
+              class="product-image"
+              width="220px"
+            />
+
+            <h3 class="product-title">SuperForm Cavalos</h3>
+
+            <span class="product-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </span>
+
+            <div class="product-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+
+            <div class="product-price">
+              <h4>R$20,00</h4>
+              <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="product">
+            <div class="product-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img
+              src="src/images/porco.png"
+              class="product-image"
+              width="300px"
+            />
+
+            <h3 class="product-title">Linha Suínos Profissional</h3>
+
+            <span class="product-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </span>
+
+            <div class="product-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+
+            <div class="product-price">
+              <h4>R$80,00</h4>
+              <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="product">
+            <div class="product-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img
+              src="src/images/Frangos.png"
+              class="product-image"
+              width="200px"
+            />
+
+            <h3 class="product-title">Frangos Concentrado</h3>
+
+            <span class="product-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </span>
+
+            <div class="product-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+
+            <div class="product-price">
+              <h4>R$200,00</h4>
+              <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="product">
+            <div class="product-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img src="src/images/boi.png" class="product-image" width="200px" />
+
+            <h3 class="product-title">Bovino Lactação</h3>
+
+            <span class="product-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </span>
+
+            <div class="product-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+
+            <div class="product-price">
+              <h4>R$50,00</h4>
+              <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials">
+        <img
+          src="src/images/fazzendeiro.png"
+          id="testimonial_fazendeiro"
+          width="100px"
+        />
+
+        <div id="testimonials_content">
+          <h2 class="section-title">Depoimentos</h2>
+          <h3 class="section-subtitle">O que os clientes falam sobre nós</h3>
+
+          <div id="feedbacks">
+            <div class="feedback">
+              <img
+                src="src/images/homemfelzizdois.jfif"
+                class="feedback-avatar"
+                alt=""
+              />
+
+              <div class="feedback-content">
+                <p>
+                  Fulano de Tal
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </p>
+                <p>
+                  "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Repellat voluptatibus cumque dolor ea est quae alias
+                  necessitatibus"
+                </p>
+              </div>
+            </div>
+
+            <div class="feedback">
+              <img
+                src="src/images/empresa.jpg"
+                class="feedback-avatar"
+                alt=""
+              />
+
+              <div class="feedback-content">
+                <p>
+                  Empresa Imaginária
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </p>
+                <p>
+                  "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Repellat voluptatibus cumque dolor ea est quae alias
+                  necessitatibus"
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn-default">Ver mais avaliações</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div id="footer_items">
+        <span id="copyright"> &copy 2025 Mariany Ávila </span>
+
+        <div class="social-media-buttons">
+          <a href="">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+
+          <a href="">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+  </body>
+</html>
