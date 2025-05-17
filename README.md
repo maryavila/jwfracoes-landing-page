@@ -1,19 +1,19 @@
-# 🌾 JWF Rações - Landing Page
+# ˚ ༘ ೀ⋆｡🌾 JWF Rações - Landing Page
 
 Landing page desenvolvida para a empresa **JWF Rações**, especializada em nutrição animal de grande porte. O site apresenta os principais produtos, depoimentos de clientes e um layout moderno e responsivo.
 
-## 📸 Preview
+## ˙✧˖°📷 ༘ ⋆｡˚ Preview
 
-### Página Inicial
-![Screenshot - Página Inicial](src/images/preview-home.png)
+### ₊⊹ Página Inicial
+![Screenshot - Página Inicial](paginicial.png)
 
-### Produtos
-![Screenshot - Produtos](src/images/preview-produtos.png)
+### ₊⊹ Produtos
+![Screenshot - Produtos](produtos.png)
 
-### Avaliações
-![Screenshot - Avaliações](src/images/preview-produtos.png)
+### ₊⊹ Avaliações
+![Screenshot - Avaliações](avaliaoces.png)
 
-## 🛠️ Tecnologias Utilizadas
+## ⋆.˚🦋༘⋆ Tecnologias Utilizadas
 
 - HTML5
 - CSS3
@@ -22,7 +22,7 @@ Landing page desenvolvida para a empresa **JWF Rações**, especializada em nutr
 - jQuery
 - ScrollReveal.js
 
-## ✨ Funcionalidades
+## ⋆⭒˚.⋆🪐 ⋆ Funcionalidades
 
 - ✅ Layout responsivo
 - ✅ Menu mobile com botão hamburguer
@@ -30,13 +30,13 @@ Landing page desenvolvida para a empresa **JWF Rações**, especializada em nutr
 - ✅ Sessão com produtos destacados
 - ✅ Avaliações de clientes
 
-## 🧑‍💻 Autora
+## ୧ ‧₊˚ 🍮 ⋅ ☆ Autora
 
 Feito com 💛 por **Mariany Ávila**  
 
-## 📌 Status do Projeto
+## ๋ ࣭ ⭑📌 Status do Projeto
 
-🚧 Projeto em desenvolvimento — melhorias futuras serão aplicadas como:
+๋ ࣭ ⭑🚧 Projeto em desenvolvimento — melhorias futuras serão aplicadas como:
 
 - Integração com sistema de pedidos real
 - Área administrativa para novos produtos
